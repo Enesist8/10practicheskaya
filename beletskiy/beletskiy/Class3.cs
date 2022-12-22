@@ -46,10 +46,7 @@ namespace beletskiy
                 string nick = "";
                 int id = 0;
                 string role = "";
-                int newname_length = 0;
-                int newpassword_length = 0;
-                int newid_length = 0;
-                int newjobtitle_length = 0;
+
                 Console.Clear();
                 Class1 newperson = new Class1(id, role, nick, parol);
                 head();
